@@ -17,7 +17,7 @@ Created target(Flight delay) from ActualArrival timestamp and Schedule arrial ti
 Final_train_c['FlightDelay']=Final_train_c['FlightDelay'].apply(lambda x: '1' if x>= 15 else '2')
 Converted the target (FlightDelay) varaible in to categorical like if delayed then 1 else 2 .
 
-Derived new column SPEED of the flight from distance and ScheduledTravelTime coumns .
+Derived new column SPEED of the flight from distance and ScheduledTravelTime columns .
 Removed unnecessary columns .
 Now we got good structured dataframe .
 Imputed null values with mean ,mediam  mode of the respective columns .
